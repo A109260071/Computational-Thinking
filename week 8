@@ -3,9 +3,9 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "Untitled2.ipynb",
+      "name": "Untitled1.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyPeT4AG8skOegXN9DKV/95i",
+      "authorship_tag": "ABX9TyMBXjnjn7B+DU0RZ68fGBCd",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -27,8 +27,8 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "8RQa3VuLhTgK",
-        "outputId": "6aeceefc-4b66-4ba6-841a-4398a904ae7a",
+        "id": "kED3pZ3oqYnY",
+        "outputId": "ab919ae0-b2e3-4668-d69d-953af388ab2b",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -42,15 +42,15 @@
         "\n",
         "print('訂購服裝的總金額為',total)"
       ],
-      "execution_count": 5,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
           "text": [
-            "請輸入上衣數量?5\n",
-            "請輸入褲子數量?1\n",
-            "請輸入背心數量?2\n",
-            "訂購服裝的總金額為 2650\n"
+            "請輸入上衣數量?10\n",
+            "請輸入褲子數量?20\n",
+            "請輸入背心數量?40\n",
+            "訂購服裝的總金額為 26000\n"
           ],
           "name": "stdout"
         }
@@ -59,8 +59,19 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "U6xFA8ADlrw6",
-        "outputId": "c85053c2-221d-469b-f51d-b3faa38223d3",
+        "id": "mZtgvEWSqlOD"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QFB1dPQVqlWi",
+        "outputId": "f9734b0a-90d5-4bee-e68e-f708396cdab9",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -72,13 +83,13 @@
         "\n",
         "print('需花費',total)"
       ],
-      "execution_count": 9,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
           "text": [
-            "請輸入購買飲料的罐數?30\n",
-            "需花費 520\n"
+            "請輸入購買飲料的罐數?20\n",
+            "需花費 360\n"
           ],
           "name": "stdout"
         }
@@ -87,8 +98,8 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "b04yZt1qnQYW",
-        "outputId": "beb8f725-e964-4549-c907-6a430f50f676",
+        "id": "BcmzFmpuqqtY",
+        "outputId": "2814f4de-d207-49c6-9aa5-fbde55d7b55d",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -104,16 +115,16 @@
         "print('三次成績的加總',sum)\n",
         "print('三次平均的加總',avg)"
       ],
-      "execution_count": 10,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
           "text": [
-            "請輸入第一次期中考成績75\n",
-            "請輸入第二次期中考成績80\n",
-            "請輸入期末考成績65\n",
-            "三次成績的加總 220\n",
-            "三次平均的加總 73.33333333333333\n"
+            "請輸入第一次期中考成績20\n",
+            "請輸入第二次期中考成績50\n",
+            "請輸入期末考成績40\n",
+            "三次成績的加總 110\n",
+            "三次平均的加總 36.666666666666664\n"
           ],
           "name": "stdout"
         }
