@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNwIhkXlZ3bLsMDb9bVJhX4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/A109260071/Computational-Thinking/blob/master/week11\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "29BMby4Qcpxf",
+        "outputId": "029780d0-00ae-468e-f4df-febb5520b297"
+      },
+      "source": [
+        "# # 商數餘數\n",
+        "## Input\n",
+        "seat = int(input(\"Enter a seat number? \"))\n",
+        "## Process\n",
+        "group = (seat - 1) // 5 + 1\n",
+        "## Output\n",
+        "print(\"Group is\", group)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a seat number? 20\n",
+            "Group is 4\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "HHJUIZDmc15u"
+      },
+      "source": [
+        "# 四捨五入 無條件進位法\n",
+        "## Input\n",
+        "seat = int(input(\"Enter a seat number? \"))\n",
+        "\n",
+        "## Process\n",
+        "import math\n",
+        "group = math.ceil(seat/5)\n",
+        "\n",
+        "## Output\n",
+        "print(\"Group is\", group)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-TP9x3r7hIiF",
+        "outputId": "17291af2-b29f-402d-d7a0-e27bfbc8354c"
+      },
+      "source": [
+        "# 方法(三):看餘數,用條件句\n",
+        "number = int(input(\"Enter a seat number? \"))\n",
+        "if number%5 == 0:\n",
+        "    print(\"Group is \", number//5)\n",
+        "else:\n",
+        "    print(\"Group is \", number//5 +1)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a seat number? 10\n",
+            "Group is  2\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
